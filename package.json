@@ -11,6 +11,7 @@
     "dev:frontend": "npm run dev -w apps/frontend",
     "build:backend": "npm run build -w apps/backend",
     "build:frontend": "npm run build -w apps/frontend",
-    "install:all": "npm install"
+    "install:all": "npm install",
+    "buildyarn": "npm run build --workspace=apps/backend"
   }
 }
