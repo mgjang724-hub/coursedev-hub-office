@@ -9,7 +9,7 @@
   "scripts": {
     "dev:backend": "npm run start:dev -w apps/backend",
     "dev:frontend": "npm run dev -w apps/frontend",
-    "build:backend": "npm run build -w apps/backend",
+    "build:backend": "npm run build --workspace=apps/backend",
     "build:frontend": "npm run build -w apps/frontend",
     "install:all": "npm install",
     "buildyarn": "npm install --include=dev && npm run build --workspace=apps/backend"
